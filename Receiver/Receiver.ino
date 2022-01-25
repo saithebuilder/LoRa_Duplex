@@ -1,17 +1,10 @@
 #include "heltec.h" 
-#include "images.h"
 
 #define BAND    433E6
 // we will be using the 433mhz band here
 String rssi = "RSSI --";
 String packSize = "--";
 String packet ;
-
-void logo(){
-  Heltec.display->clear();
-  Heltec.display->drawXbm(0,5,logo_width,logo_height,logo_bits);
-  Heltec.display->display();
-}
 
 void LoRaData(){
   Heltec.display->clear();
