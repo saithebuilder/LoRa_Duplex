@@ -54,6 +54,6 @@ void loop() {
 
   LoRa.beginPacket(); //sending encrypted text via LoRa
   LoRa.setTxPower(14, RF_PACONFIG_PASELECT_PABOOST);
-  LoRa.print(String((char*)ret));
+  LoRa.print(String((int*)ret));
   LoRa.endPacket();
 }
