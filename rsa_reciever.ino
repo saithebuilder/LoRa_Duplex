@@ -57,5 +57,6 @@ void loop() {
   Heltec.display->setTextAlignment(TEXT_ALIGN_LEFT);
   Heltec.display->setFont(ArialMT_Plain_10);
   Heltec.display->drawString(0, 0, String("RSA Plain Text"));
+  Heltec.display->drawString(0, 15, String(ret));
   Heltec.display->display();
 }
