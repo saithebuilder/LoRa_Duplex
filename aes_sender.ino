@@ -3,7 +3,7 @@
 #define BAND    433E6 //setting the LoRa bands to 433 mhz
 mbedtls_aes_context aes;
 
-unsigned char key[32] = 1234567891234567; // 128 bit - AES = 16 bytes for key
+unsigned char key[32] = 12345678912345671234567891234567; // 256 bit - AES = 32 bytes for key
 unsigned char iv[16];
 
 unsigned char input [128] = "AES Plain Text";
