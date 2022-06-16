@@ -1,6 +1,6 @@
 #include "heltec.h"
 #include "Cipher.h"           // code for aes encryption and decryption functions
-#include "mbedtls/aes.h"      // hardware accelerated aes provided by mbedtls.org (apache license)
+#include "mbedtls/aes.h"      // hardware accelerated aes provided by https://tls.mbed.org/ (apache license)
 #include "BluetoothSerial.h"  //fork with bluetooth support for serial communication
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
