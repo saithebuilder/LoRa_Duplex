@@ -1,6 +1,6 @@
 #include "heltec.h"
 #include "Cipher.h"           // code for aes encryption and decryption functions
-#include "mbedtls/aes.h"      // hardware accelerated aes provided by mbedtls.org (apache license)
+#include "mbedtls/aes.h"      // hardware accelerated aes provided by https://tls.mbed.org/ (apache license)
 
 #define BAND    433E6         // regional bands
 
