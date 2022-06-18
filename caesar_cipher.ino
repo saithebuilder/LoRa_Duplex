@@ -1,12 +1,12 @@
 #define Nchars 96  //  starting at 32 up to 126 in the ascii table 
 #define n_shift 3  //  shift desired
-//
+
 char plaintext[]=
 {   
-  'A','r','d','u','i','n','o',' ', 't','o',' ','c','i','p','h','e','r',' ','t','h','i','s', '#'};
-//
+  'H', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd'};
+
 char ciphered[sizeof(plaintext)];
-//
+
 
 boolean stringComplete = true;  
 
